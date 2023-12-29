@@ -1,0 +1,15 @@
+.title {
+    color: #9D875C;
+    font-family: Italiana;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    &_main {
+        margin: 318px 0 35px;
+        width: 643px;
+        font-size: 100px;
+        line-height: 100px;
+    }
+}

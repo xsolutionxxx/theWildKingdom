@@ -1,0 +1,21 @@
+@import 'fonts';
+@import 'base/variables';
+
+body {
+    font-family: Montserrat, sans-serif;
+    color: #222220;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.container {
+    width: 1572px;
+    margin: 0 auto;
+}
+
+@import 'blocks/navbar';
+@import 'blocks/links';
+@import 'blocks/header';
+@import 'blocks/title';
