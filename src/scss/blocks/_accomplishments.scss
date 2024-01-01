@@ -1,0 +1,17 @@
+.accomplishments {
+    padding: 159px 0 164px;
+    background-color: $bg_color;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        row-gap: 126px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 52px;
+    }
+}

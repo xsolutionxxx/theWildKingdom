@@ -1,0 +1,24 @@
+.button {
+    background-color: transparent;
+    color: $main-color;
+    text-decoration: none;
+    padding: 12px 30px 13px 31px;
+    border: 1px solid $main-color;
+    border-radius: 50px;
+    cursor: pointer;
+    &_fill {
+        background: url('@img/about/about_items/bg_items.png'), lightgray 50% / cover no-repeat;
+        color: $main_text_color;       
+        //mix-blend-mode: soft-light;
+    }
+    &_play {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        border: none;
+        background: url('@img/contact/bg_item.jpg'), lightgray 50% / cover no-repeat;
+    }
+    &_ml35 {
+        margin-left: 35px;
+    }
+}

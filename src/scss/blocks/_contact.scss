@@ -1,0 +1,67 @@
+.contact {
+    position: relative;
+    padding: 57px 0 169px;
+    height: 100%;
+    background-color: $bg_color;
+    height: 1169px;
+    &__box {
+        position: relative;
+        height: 943px;
+    }
+    &__img-down {
+        position: absolute;
+        padding: 13px 16px;
+        border: 1px solid $main-color;
+        top: 0;
+        left: 34px;
+        z-index: 1;
+    }
+    &__img-up {
+        position: absolute;
+        padding: 13px 16px;
+        border: 1px solid $main-color;
+        top: 371px;
+        left: 111px;
+        z-index: 2;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+    }
+    &__video {
+        position: absolute;
+        top: 279px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        border: 1px solid $main_color;
+        padding: 16px;
+        width: 220px;
+        height: 220px;
+        z-index: 3;
+    }
+    &__info {
+        width: 520px;
+    }
+    &__phone {
+        display: block;
+        color: $main_text_color;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    &__time, &__geo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 40px;
+        img {
+            margin: 12px 19px 0 0;
+        }
+    }
+}

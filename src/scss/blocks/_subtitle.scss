@@ -1,0 +1,12 @@
+.subtitle {
+    color: $main_text_color;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    &_white {
+        color: $services_text_color;
+    }
+    &_ml35 {
+        margin-left: 35px;  
+    }
+}

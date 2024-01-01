@@ -1,0 +1,24 @@
+.services {
+    background-color: $main_text_color;
+    padding: 160px 0 159px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 149px;
+    }
+    &__img {
+        padding: 19px;
+        border: 1px solid $services_text_color;
+    }
+    span {
+        display: block;
+        margin-bottom: 20px;
+        color: $services_text_color;
+        font-style: italic;
+    }
+    &__descr {
+        margin-bottom: 20px;
+        color: $services_text_color;
+    }
+}
